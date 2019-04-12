@@ -19,6 +19,7 @@ class CarouselView: UIView{
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.source = Source()
+        self.source.delegate = self
         self.setupViews()
         self.setConstraints()
         
@@ -70,16 +71,16 @@ class CarouselView: UIView{
     internal func setConstraints(){
         let pageControlConstraints:[NSLayoutConstraint] = [
             pageControl!.centerXAnchor.constraint(equalTo: self.centerXAnchor),
-            pageControl!.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant:-8),
+            pageControl!.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant:-4),
             pageControl!.heightAnchor.constraint(equalToConstant: 20)
         ]
         
         let collectionViewConstraints : [NSLayoutConstraint] = [
-            self.carousel!.topAnchor.constraint(equalTo: self.topAnchor),
+            self.carousel!.topAnchor.constraint(equalTo: self.topAnchor,constant: 8),
             self.carousel!.heightAnchor.constraint(equalToConstant: CGFloat(height)),
             self.carousel!.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 0),
             self.carousel!.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 0),
-            self.carousel!.bottomAnchor.constraint(equalTo: self.pageControl!.topAnchor, constant:-8)
+            self.carousel!.bottomAnchor.constraint(equalTo: self.pageControl!.topAnchor, constant:-4)
         ]
         
         NSLayoutConstraint.activate(pageControlConstraints)
@@ -92,5 +93,11 @@ class CarouselView: UIView{
 extension CarouselView : CarouselCollectionViewProtocol{
     func updatePage(page: Int) {
         self.pageControl?.currentPage = page
+    }
+}
+
+extension CarouselView : SourceProtocol{
+    func selectedCard(card: CardModel) {
+        print("\nCard Selected \(card.name)\n")
     }
 }

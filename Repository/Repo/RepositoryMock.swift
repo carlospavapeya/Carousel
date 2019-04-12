@@ -9,20 +9,11 @@
 import Foundation
 
 class RepositoryMock: RepositoryProtocol {
-    func getCards() -> [CardModel] {
+    func getCards() -> [CardModel]? {
         let cards:[CardModel] = [
             CardModel(name:"banner1",imageUrl:"banner1"),
             CardModel(name:"banner2",imageUrl:"banner2"),
             CardModel(name:"banner3",imageUrl:"banner3"),
-            CardModel(name:"banner4",imageUrl:"banner4"),
-            CardModel(name:"banner4",imageUrl:"banner4"),
-            CardModel(name:"banner4",imageUrl:"banner4"),
-            CardModel(name:"banner4",imageUrl:"banner4"),
-            CardModel(name:"banner4",imageUrl:"banner4"),
-            CardModel(name:"banner4",imageUrl:"banner4"),
-            CardModel(name:"banner4",imageUrl:"banner4"),
-            CardModel(name:"banner4",imageUrl:"banner4"),
-            CardModel(name:"banner4",imageUrl:"banner4"),
             CardModel(name:"banner4",imageUrl:"banner4")
         ]
         return cards

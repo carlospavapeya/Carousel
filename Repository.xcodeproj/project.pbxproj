@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1A420E9F225F805D00E30484 /* UIColor+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A420E9E225F805D00E30484 /* UIColor+Base.swift */; };
 		1AAEBE532260D718009518E3 /* CarouselCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAEBE522260D718009518E3 /* CarouselCollectionView.swift */; };
+		1AAEBE5422611FE0009518E3 /* UIColor+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A420E9E225F805D00E30484 /* UIColor+Base.swift */; };
+		1AAEBE5522611FE8009518E3 /* CarouselCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAEBE522260D718009518E3 /* CarouselCollectionView.swift */; };
 		1ABE95DD225CF50C00554A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE95DC225CF50C00554A1C /* AppDelegate.swift */; };
 		1ABE95DF225CF50C00554A1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE95DE225CF50C00554A1C /* ViewController.swift */; };
 		1ABE95E2225CF50C00554A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE95E0225CF50C00554A1C /* Main.storyboard */; };
@@ -60,6 +62,7 @@
 /* Begin PBXFileReference section */
 		1A420E9E225F805D00E30484 /* UIColor+Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Base.swift"; sourceTree = "<group>"; };
 		1AAEBE522260D718009518E3 /* CarouselCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionView.swift; sourceTree = "<group>"; };
+		1AAEBE72226120ED009518E3 /* Repository copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Repository copy-Info.plist"; path = "/Users/carlos.pava/Documents/Repository/Repository/Repository copy-Info.plist"; sourceTree = "<absolute>"; };
 		1ABE95D9225CF50C00554A1C /* Repository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABE95DC225CF50C00554A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABE95DE225CF50C00554A1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +129,7 @@
 				1ABE95F0225CF50F00554A1C /* RepositoryTests */,
 				1ABE95FB225CF50F00554A1C /* RepositoryUITests */,
 				1ABE95DA225CF50C00554A1C /* Products */,
+				1AAEBE72226120ED009518E3 /* Repository copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -385,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAEBE5422611FE0009518E3 /* UIColor+Base.swift in Sources */,
 				1ABE960E225CF54700554A1C /* BaseManager.swift in Sources */,
 				1ABE961A225CF61200554A1C /* Manager.swift in Sources */,
 				1ABE95F2225CF50F00554A1C /* RepositoryTests.swift in Sources */,
@@ -396,6 +401,7 @@
 				1ABE9637225D332100554A1C /* BannerView.swift in Sources */,
 				1ABE9632225D1D6000554A1C /* CardCollectionViewCell.swift in Sources */,
 				1ABE9614225CF59C00554A1C /* Repository.swift in Sources */,
+				1AAEBE5522611FE8009518E3 /* CarouselCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,5 @@
 import Foundation
 
 protocol RepositoryProtocol {
-    func getCards() -> [CardModel]
+    func getCards() -> [CardModel]?
 }

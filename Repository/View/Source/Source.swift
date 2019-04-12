@@ -8,11 +8,15 @@
 
 import UIKit
 
+protocol SourceProtocol {
+    func selectedCard(card:CardModel)
+}
+
 class Source: NSObject, UICollectionViewDataSource, UICollectionViewDelegate {
     
     let idCell = "cardCell"
     var cards = [CardModel]()
-
+    var delegate:SourceProtocol?
     func setData(cards:[CardModel]){
         self.cards = cards
     }
@@ -32,6 +36,7 @@ class Source: NSObject, UICollectionViewDataSource, UICollectionViewDelegate {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        collectionView.deselectItem(at: indexPath, animated: true)
+        collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+        self.delegate?.selectedCard(card: cards[indexPath.row])
     }
 }

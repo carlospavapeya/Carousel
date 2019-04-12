@@ -9,7 +9,7 @@
 import Foundation
 
 class Repository: RepositoryProtocol {
-    func getCards() -> [CardModel] {
+    func getCards() -> [CardModel]? {
         let cards:[CardModel] = [
             CardModel(name:"banner1",imageUrl:"banner1")
         ]

@@ -105,7 +105,7 @@ class CarouselCollectionView: UICollectionView {
     ///   - inset: Inset
     public convenience init(withFrame frame: CGRect, andInset inset: CGFloat) {
         self.init(frame: frame, collectionViewLayout: CarouselLayout(withCarouselInset: inset))
-        
+        self.showsHorizontalScrollIndicator = false
         self.inset = inset
     }
     
@@ -258,7 +258,7 @@ extension CarouselCollectionView: UIScrollViewDelegate {
         lastCurrentCenterCellIndex = indexPath
     }
     
-    private func updateOffSet() {
+    func updateOffSet() {
         contentOffset = invisibleScrollView.contentOffset
     }
 }

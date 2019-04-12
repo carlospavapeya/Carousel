@@ -11,8 +11,11 @@ import XCTest
 
 class RepositoryTests: XCTestCase {
 
+    var manager:Manager!
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        self.manager = Manager()
     }
 
     override func tearDown() {
@@ -31,4 +34,15 @@ class RepositoryTests: XCTestCase {
         }
     }
 
+    func testCountCardsWithNil(){
+        let cards = self.manager.getCards()
+
+        XCTAssertNil(cards?.count, "comparation")
+    }
+    
+    func testCountCards(){
+        let cards = self.manager.getCards()        
+        XCTAssertNotNil(cards)
+    }
+    
 }

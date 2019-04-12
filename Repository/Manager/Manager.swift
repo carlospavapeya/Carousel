@@ -24,7 +24,7 @@ class Manager: BaseManager {
         }
     }
     
-    func getCards() -> [CardModel]{
+    func getCards() -> [CardModel]?{
         return self.repository.getCards()
     }
 }

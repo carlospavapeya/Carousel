@@ -49,7 +49,12 @@ class BannerView: UIView {
     internal func setCardImageView(){
         self.cardImageView = UIImageView(frame: .zero)
         self.cardImageView?.translatesAutoresizingMaskIntoConstraints = false
-        self.cardImageView?.image = UIImage(named: self.cards!.first!.imageUrl)
+        
+        guard let card = cards?.first else {
+            return
+        }
+        
+        self.cardImageView?.image = UIImage(named: card.imageUrl)
         addSubview(self.cardImageView!)
         setConstraintsToCardImageView()
     }
@@ -73,7 +78,7 @@ class BannerView: UIView {
             carouselView!.leadingAnchor.constraint(equalTo: leadingAnchor),
             carouselView!.trailingAnchor.constraint(equalTo: trailingAnchor),
             carouselView!.bottomAnchor.constraint(equalTo: bottomAnchor),
-        ]
+            ]
         NSLayoutConstraint.activate(constraints)
         
         layoutIfNeeded()
