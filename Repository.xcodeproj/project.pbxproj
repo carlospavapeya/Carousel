@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A420E9F225F805D00E30484 /* UIColor+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A420E9E225F805D00E30484 /* UIColor+Base.swift */; };
+		1AAEBE532260D718009518E3 /* CarouselCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAEBE522260D718009518E3 /* CarouselCollectionView.swift */; };
 		1ABE95DD225CF50C00554A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE95DC225CF50C00554A1C /* AppDelegate.swift */; };
 		1ABE95DF225CF50C00554A1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE95DE225CF50C00554A1C /* ViewController.swift */; };
 		1ABE95E2225CF50C00554A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE95E0225CF50C00554A1C /* Main.storyboard */; };
@@ -14,6 +16,28 @@
 		1ABE95E7225CF50F00554A1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE95E5225CF50F00554A1C /* LaunchScreen.storyboard */; };
 		1ABE95F2225CF50F00554A1C /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE95F1225CF50F00554A1C /* RepositoryTests.swift */; };
 		1ABE95FD225CF50F00554A1C /* RepositoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE95FC225CF50F00554A1C /* RepositoryUITests.swift */; };
+		1ABE960D225CF54700554A1C /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE960C225CF54700554A1C /* BaseManager.swift */; };
+		1ABE960E225CF54700554A1C /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE960C225CF54700554A1C /* BaseManager.swift */; };
+		1ABE9610225CF57A00554A1C /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE960F225CF57A00554A1C /* RepositoryProtocol.swift */; };
+		1ABE9611225CF57A00554A1C /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE960F225CF57A00554A1C /* RepositoryProtocol.swift */; };
+		1ABE9613225CF59C00554A1C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9612225CF59C00554A1C /* Repository.swift */; };
+		1ABE9614225CF59C00554A1C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9612225CF59C00554A1C /* Repository.swift */; };
+		1ABE9616225CF5DF00554A1C /* RepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9615225CF5DF00554A1C /* RepositoryMock.swift */; };
+		1ABE9617225CF5DF00554A1C /* RepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9615225CF5DF00554A1C /* RepositoryMock.swift */; };
+		1ABE9619225CF61200554A1C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9618225CF61200554A1C /* Manager.swift */; };
+		1ABE961A225CF61200554A1C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9618225CF61200554A1C /* Manager.swift */; };
+		1ABE9620225D120200554A1C /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE961F225D120200554A1C /* CardModel.swift */; };
+		1ABE9621225D120200554A1C /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE961F225D120200554A1C /* CardModel.swift */; };
+		1ABE9625225D131500554A1C /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9624225D131500554A1C /* CarouselView.swift */; };
+		1ABE9626225D131500554A1C /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9624225D131500554A1C /* CarouselView.swift */; };
+		1ABE9629225D187400554A1C /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9628225D187400554A1C /* Source.swift */; };
+		1ABE962A225D187400554A1C /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9628225D187400554A1C /* Source.swift */; };
+		1ABE9631225D1D6000554A1C /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE962F225D1D6000554A1C /* CardCollectionViewCell.swift */; };
+		1ABE9632225D1D6000554A1C /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE962F225D1D6000554A1C /* CardCollectionViewCell.swift */; };
+		1ABE9633225D1D6000554A1C /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE9630225D1D6000554A1C /* CardCollectionViewCell.xib */; };
+		1ABE9634225D1D6000554A1C /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE9630225D1D6000554A1C /* CardCollectionViewCell.xib */; };
+		1ABE9636225D332100554A1C /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9635225D332100554A1C /* BannerView.swift */; };
+		1ABE9637225D332100554A1C /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE9635225D332100554A1C /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A420E9E225F805D00E30484 /* UIColor+Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Base.swift"; sourceTree = "<group>"; };
+		1AAEBE522260D718009518E3 /* CarouselCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionView.swift; sourceTree = "<group>"; };
 		1ABE95D9225CF50C00554A1C /* Repository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABE95DC225CF50C00554A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABE95DE225CF50C00554A1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,17 @@
 		1ABE95F8225CF50F00554A1C /* RepositoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepositoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABE95FC225CF50F00554A1C /* RepositoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryUITests.swift; sourceTree = "<group>"; };
 		1ABE95FE225CF50F00554A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABE960C225CF54700554A1C /* BaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
+		1ABE960F225CF57A00554A1C /* RepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
+		1ABE9612225CF59C00554A1C /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		1ABE9615225CF5DF00554A1C /* RepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryMock.swift; sourceTree = "<group>"; };
+		1ABE9618225CF61200554A1C /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		1ABE961F225D120200554A1C /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		1ABE9624225D131500554A1C /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		1ABE9628225D187400554A1C /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		1ABE962F225D1D6000554A1C /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		1ABE9630225D1D6000554A1C /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		1ABE9635225D332100554A1C /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +111,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A420E9D225F804B00E30484 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1A420E9E225F805D00E30484 /* UIColor+Base.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		1ABE95D0225CF50C00554A1C = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +142,11 @@
 		1ABE95DB225CF50C00554A1C /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				1A420E9D225F804B00E30484 /* Categories */,
+				1ABE9623225D12F900554A1C /* View */,
+				1ABE9622225D122500554A1C /* Model */,
+				1ABE960B225CF52900554A1C /* Repo */,
+				1ABE960A225CF51A00554A1C /* Manager */,
 				1ABE95DC225CF50C00554A1C /* AppDelegate.swift */,
 				1ABE95DE225CF50C00554A1C /* ViewController.swift */,
 				1ABE95E0225CF50C00554A1C /* Main.storyboard */,
@@ -123,6 +173,62 @@
 				1ABE95FE225CF50F00554A1C /* Info.plist */,
 			);
 			path = RepositoryUITests;
+			sourceTree = "<group>";
+		};
+		1ABE960A225CF51A00554A1C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE960C225CF54700554A1C /* BaseManager.swift */,
+				1ABE9618225CF61200554A1C /* Manager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1ABE960B225CF52900554A1C /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE960F225CF57A00554A1C /* RepositoryProtocol.swift */,
+				1ABE9612225CF59C00554A1C /* Repository.swift */,
+				1ABE9615225CF5DF00554A1C /* RepositoryMock.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		1ABE9622225D122500554A1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE961F225D120200554A1C /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1ABE9623225D12F900554A1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE962B225D192D00554A1C /* Cell */,
+				1ABE9627225D15CB00554A1C /* Source */,
+				1ABE9624225D131500554A1C /* CarouselView.swift */,
+				1ABE9635225D332100554A1C /* BannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1ABE9627225D15CB00554A1C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE9628225D187400554A1C /* Source.swift */,
+				1AAEBE522260D718009518E3 /* CarouselCollectionView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1ABE962B225D192D00554A1C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE962F225D1D6000554A1C /* CardCollectionViewCell.swift */,
+				1ABE9630225D1D6000554A1C /* CardCollectionViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABE9633225D1D6000554A1C /* CardCollectionViewCell.xib in Resources */,
 				1ABE95E7225CF50F00554A1C /* LaunchScreen.storyboard in Resources */,
 				1ABE95E4225CF50F00554A1C /* Assets.xcassets in Resources */,
 				1ABE95E2225CF50C00554A1C /* Main.storyboard in Resources */,
@@ -239,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABE9634225D1D6000554A1C /* CardCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +364,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABE960D225CF54700554A1C /* BaseManager.swift in Sources */,
+				1A420E9F225F805D00E30484 /* UIColor+Base.swift in Sources */,
+				1ABE9610225CF57A00554A1C /* RepositoryProtocol.swift in Sources */,
+				1ABE9613225CF59C00554A1C /* Repository.swift in Sources */,
+				1ABE9631225D1D6000554A1C /* CardCollectionViewCell.swift in Sources */,
+				1ABE9616225CF5DF00554A1C /* RepositoryMock.swift in Sources */,
+				1ABE9625225D131500554A1C /* CarouselView.swift in Sources */,
+				1ABE9619225CF61200554A1C /* Manager.swift in Sources */,
+				1ABE9620225D120200554A1C /* CardModel.swift in Sources */,
+				1ABE9636225D332100554A1C /* BannerView.swift in Sources */,
 				1ABE95DF225CF50C00554A1C /* ViewController.swift in Sources */,
+				1AAEBE532260D718009518E3 /* CarouselCollectionView.swift in Sources */,
+				1ABE9629225D187400554A1C /* Source.swift in Sources */,
 				1ABE95DD225CF50C00554A1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +385,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABE960E225CF54700554A1C /* BaseManager.swift in Sources */,
+				1ABE961A225CF61200554A1C /* Manager.swift in Sources */,
 				1ABE95F2225CF50F00554A1C /* RepositoryTests.swift in Sources */,
+				1ABE9621225D120200554A1C /* CardModel.swift in Sources */,
+				1ABE9611225CF57A00554A1C /* RepositoryProtocol.swift in Sources */,
+				1ABE962A225D187400554A1C /* Source.swift in Sources */,
+				1ABE9617225CF5DF00554A1C /* RepositoryMock.swift in Sources */,
+				1ABE9626225D131500554A1C /* CarouselView.swift in Sources */,
+				1ABE9637225D332100554A1C /* BannerView.swift in Sources */,
+				1ABE9632225D1D6000554A1C /* CardCollectionViewCell.swift in Sources */,
+				1ABE9614225CF59C00554A1C /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +670,123 @@
 			};
 			name = Release;
 		};
+		1ABE961B225CF7B900554A1C /* Mocks */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = MOCK;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Mocks;
+		};
+		1ABE961C225CF7B900554A1C /* Mocks */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Repository/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = carlos.pava.RepositoryMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Mocks;
+		};
+		1ABE961D225CF7B900554A1C /* Mocks */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RepositoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = carlos.pava.RepositoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Repository.app/Repository";
+			};
+			name = Mocks;
+		};
+		1ABE961E225CF7B900554A1C /* Mocks */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RepositoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = carlos.pava.RepositoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Repository;
+			};
+			name = Mocks;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +794,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ABE95FF225CF50F00554A1C /* Debug */,
+				1ABE961B225CF7B900554A1C /* Mocks */,
 				1ABE9600225CF50F00554A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -556,6 +804,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ABE9602225CF50F00554A1C /* Debug */,
+				1ABE961C225CF7B900554A1C /* Mocks */,
 				1ABE9603225CF50F00554A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -565,6 +814,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ABE9605225CF50F00554A1C /* Debug */,
+				1ABE961D225CF7B900554A1C /* Mocks */,
 				1ABE9606225CF50F00554A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -574,6 +824,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ABE9608225CF50F00554A1C /* Debug */,
+				1ABE961E225CF7B900554A1C /* Mocks */,
 				1ABE9609225CF50F00554A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
